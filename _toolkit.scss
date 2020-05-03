@@ -1,29 +1,86 @@
 @import "variables";
 
-@import "../_handy-theme.scss";
 
 @import "utilities/normalize";
-@import "utilities/reset";
-@import "utilities/layout";
-@import "utilities/color";
-@import "utilities/shadow";
-@import "utilities/radius";
-@import "utilities/border";
-@import "utilities/display";
-@import "utilities/position";
-@import "utilities/flex";
-@import "utilities/size";
-@import "utilities/ratio";
-@import "utilities/rotate";
-@import "utilities/space";
-@import "utilities/screenreaders";
-@import "utilities/text";
 
+
+@import "utilities/reset";
+
+
+@import "../handy-toolkit-theme/utilities/layout";
+@import "utilities/layout";
+
+
+@import "../handy-toolkit-theme/utilities/color";
+@import "utilities/color";
+
+
+@import "../handy-toolkit-theme/utilities/shadow";
+@import "utilities/shadow";
+
+
+@import "../handy-toolkit-theme/utilities/radius";
+@import "utilities/radius";
+
+
+@import "../handy-toolkit-theme/utilities/border";
+@import "utilities/border";
+
+
+@import "../handy-toolkit-theme/components/text";
 @import "components/text";
+
+
 @import "components/icons";
+
+
+@import "../handy-toolkit-theme/components/buttons";
 @import "components/buttons"; //Dependencies: variables, u/color, u/shadow, u/radius, c/text
+
+
+@import "../handy-toolkit-theme/components/badges";
 @import "components/badges"; //Dependencies: variables, u/color, u/shadow, u/radius, c/text, c/buttons
+
+
+@import "../handy-toolkit-theme/components/hrs";
 @import "components/hrs"; //Dependencies: u/color, u/layout, u/border
+
+
+@import "../handy-toolkit-theme/components/lists";
 @import "components/lists"; //Dependencies: u/color, c/buttons
+
+
+@import "../handy-toolkit-theme/components/images";
 @import "components/images"; //Dependencies: variables, u/color, u/text
+
+
+@import "../handy-toolkit-theme/components/controls";
 @import "components/controls"; //Dependencies: variables, u/color, u/text, c/buttons
+
+
+@import "utilities/display";
+
+
+@import "utilities/position";
+
+
+@import "utilities/flex";
+
+@import "../handy-toolkit-theme/utilities/size";
+@import "utilities/size";
+
+
+@import "../handy-toolkit-theme/utilities/ratio";
+@import "utilities/ratio";
+
+
+@import "../handy-toolkit-theme/utilities/rotate";
+@import "utilities/rotate";
+
+@import "../handy-toolkit-theme/utilities/space";
+@import "utilities/space";
+
+@import "utilities/screenreaders";
+
+
+@import "utilities/text";
