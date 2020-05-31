@@ -58,6 +58,7 @@ $controls: (
     text-align: left;
     padding: 0 (($button-size / 3) * 1em);
     font-weight: $control-font-weight;
+	color: $control-color;
     background: $control-background;
     border: $control-border-width $control-border-style $control-border-color;
     @include radius($control-border-radius);
